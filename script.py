@@ -3,7 +3,7 @@ from zoneinfo import ZoneInfo
 import time as sleep_time
 
 timezone = ZoneInfo("Europe/Paris")
-target_time = time(11,00)
+target_time = time(12,00)
 launchtime = datetime.now(timezone).strftime("%Y-%m-%d %H:%M:%S %Z")
 
 def wait_until_midnight():
