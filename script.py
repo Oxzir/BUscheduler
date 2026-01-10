@@ -21,4 +21,4 @@ with open("last_run.txt", "w", encoding="utf-8") as f:
         f"Exécution à {wait_until_midnight()}\n"
     )
 
-print("Heure :", now)
+print("Heure :", wait_until_midnight())
