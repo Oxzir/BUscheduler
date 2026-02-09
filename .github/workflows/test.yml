@@ -1,8 +1,8 @@
 name: Python package
 
 on:
-  schedule:
-    - cron: "55 22 * * *"   # Tous les jours à min:heures UTC
+  # schedule:
+    # - cron: "55 22 * * *"   # Tous les jours à min:heures UTC
   workflow_dispatch:       # bouton manuel
 
 jobs:
